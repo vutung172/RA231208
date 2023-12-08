@@ -101,7 +101,7 @@ public class Student implements IStudent {
 
     @Override
     public void displayData() {
-        System.out.printf("%5s %20s %5s %10s %10s %10s %10s %10s \n ",studentID,studentName,age,diemToan,diemLy,diemHoa,diemTB,check()?"pass":"fail");
+        System.out.printf("%5s %15s %8s %8s %8s %8s %8s %8s \n ",studentID,studentName,age,diemToan,diemLy,diemHoa,diemTB,check()?"pass":"fail");
     }
 
     public float calTB(){
