@@ -41,12 +41,12 @@ public class Main {
                     break;
                 case 4:
                     System.out.println("Danh sách sinh viên:");
-                    System.out.printf("%5s %15s %8s %8s %8s %8s %8s %8s \n", "Mã SV", "Họ và tên", "Tuổi", "Toán", "Lý", "Hóa","Điểm TB","Xếp loại" );
+                    System.out.printf("%5s %15s %8s %8s %8s %8s %8s %10s \n", "Mã SV", "Họ và tên", "Tuổi", "Toán", "Lý", "Hóa","Điểm TB","Xếp loại" );
                     System.out.println("--------------------------------------------------------------------------------------");
                     for (Student student : list) {
                         if (student != null) {
                             student.displayData();
-                            System.out.println("____________________________________________________________________");
+                            System.out.println("--------------------------------------------------------------------------------------");
                         }
                     }
                     break;
